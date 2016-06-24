@@ -5,4 +5,4 @@
 # Done. And all output is redirected to /dev/null. The
 # option novopt disables optimisation, which is necessary
 # for the simulation to work.
-(module load modelsim/10.3d; vsim -novopt &) >& /dev/null
+(module load modelsim/10.3d; vsim -novopt cad4soc.mpf &) >& /dev/null
