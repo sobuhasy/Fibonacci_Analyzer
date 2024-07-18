@@ -60,6 +60,34 @@ module alu8_tb ();
         #1;
         opcode = `OP_OR;
         #1;
+	opcode = `OP_ADD;
+	left = 0;
+	right = 0;
+        #1;
+	left = 0;
+	right = 1;
+        #1;
+	left = 1;
+	right = 0;
+        #1;
+	left = 1;
+	right = 1;
+        #1;
+	left = 255;
+	right = 1;
+        #1;
+	opcode = `OP_SUB;
+	left = 1;
+	right = 0;
+        #1;
+	left = 1;
+	right = 1;
+        #1;
+	left = 0;
+	right = 1;
+        #1;
+	
+	
 
         // add your tests here...
 
